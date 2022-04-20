@@ -1,0 +1,131 @@
+body{
+ margin:0;
+ padding: 0;
+ height: 100vh;
+ width: 100vw;
+ opacity: 0.70;
+}
+
+.img{
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+min-height:100vh;
+overflow: hidden;
+background-position:center;
+background-attachment: fixed;
+background-image: 
+url("https://img-aws.ehowcdn.com/560x560p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/531d3173c0a04f60852bde60f5fb0ef1");
+}
+.b {
+    background-image:
+    url("https://static.wixstatic.com/media/5e7eec_b30f083666a2446999a043b23da86556~mv2.jpg/v1/fill/w_1000,h_666,al_c,q_90,usm_0.66_1.00_0.01/5e7eec_b30f083666a2446999a043b23da86556~mv2.jpg");
+
+}
+.c{
+    background-image: url(https://th.bing.com/th/id/R.07a3a12655ced9acf098d4aa1cf379c2?rik=4ZIS27hkL7UPeA&pid=ImgRaw&r=0);
+}
+
+.d{
+    background-image: url("https://th.bing.com/th/id/R.091121ae18a5fe9bc6cb55dba826a28c?rik=WJBzbMEVwWCiow&riu=http%3a%2f%2fgist.mirusempire.com%2fwp-content%2fuploads%2f2016%2f04%2fafrican-forest.jpg&ehk=4T8gZPw2ku6%2bTDJNY0K23I8XOBj3i6K5nqFKKZ5y%2fNc%3d&risl=&pid=ImgRaw&r=0");
+}
+#section-2 #section-3{
+ min-height: 100vh;
+ margin:0px;
+padding: 10px;
+background-color:rgb(42, 202, 90) ;
+}
+
+
+.title-continer{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.head{
+    background-color: black ;
+    color: white;
+    position: relative;
+    padding: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+
+}
+   
+h2{
+    text-align:center;
+    margin-left:auto;
+    padding: 15px;
+    margin-top: 0;
+}
+p{
+ height: 200px;
+font-size: 22px;
+padding: 20px;
+margin-bottom: 0;
+
+
+}
+.para-1{
+    background-color: rgb(42, 202, 90);
+    
+
+}
+.para{
+    background-color: rgb(174, 186, 214);
+    
+}
+.img d{
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+
+}
+#end{
+    opacity: 0.6;
+    overflow: hidden;
+
+
+}
+.f{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 37pt;
+    z-index: 10;
+    position: absolute;
+    margin-top: 311px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+    
+
+
+
+
+}
+@media screen and (max-width:500px){
+    p{
+        height:fit-content;
+    }
+    body{
+        margin:0;
+        padding:0;
+    }
+    .f{
+        position: absolute;
+        width: 98%;
+        font-size: smaller;
+        
+
+  }
+  .head{
+      font-size: smaller;
+  }
+}
